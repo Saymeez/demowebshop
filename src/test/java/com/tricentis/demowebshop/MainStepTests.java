@@ -32,7 +32,7 @@ public class MainStepTests {
     }
 
 
-    @ParameterizedTest(name = "Проверка перехода по каталогам в меню")
+    @ParameterizedTest(name = "Проверка перехода в каталог через меню")
     @ValueSource(strings = {"BOOKS", "COMPUTERS", "ELECTRONICS", "APPAREL & SHOES", "DIGITAL DOWNLOADS", "JEWELRY", "GIFT CARDS"})
     @Severity(SeverityLevel.NORMAL)
     @Description("Тест заходит на главную страницу сайта, через меню переходит в каталог и проверяет заголовок")
